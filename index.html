@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restro web</title>
+    <link rel="stylesheet" href="restro.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>We're open and available for takeaway & delivery. <a id="gotoup" href="#" style="color: aliceblue;">Order Now</a>
+    </header>
+
+    <!-- nav -->
+    <nav>
+        <div class="left">
+            <img src="/Img/ll.png" width="130px" height="100px" alt="">
+        </div>
+
+        <div id="openit" class="openit">
+            <a class="navhov" href="#">Home</a>
+            <a class="navhov" href="#">Order</a>
+            <a class="navhov" href="#">Company</a>
+            <a class="navhov" href="#">FAQ</a>
+            <a href="#"><button>Sign In</button></a>
+            <a href="#"><button>Sign Up</button></a>
+
+        </div>
+        <div class="cart"><span></span></div>
+        <div class="bar" onclick="clk()" onscroll="clkclose()"><span></span></div>
+    </nav>
+
+    <!-- section1 -->
+
+    <div class=" container section1">
+        <div class="left">
+            <h1>Beautiful food & takeaway, <span style="color:#35b8be ;">delivered</span> to your door.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500.</p>
+            <button>Place an Order</button><br>
+            <img src="/Img/asset 2.svg" height="27px" alt="">
+            <p style="color: black; font-size: 15px;"><span style="color:#35b8be ;">4.8 out of 5</span> based on 2000+
+                reviews</p>
+        </div>
+        <div class="right">
+            <img src="https://images.pexels.com/photos/995743/pexels-photo-995743.jpeg?auto=compress&cs=tinysrgb&"
+                class="imghover" alt="" style="border-radius: 30px;">
+        </div>
+    </div>
+
+    <!-- section2 -->
+
+    <div class="container section2">
+        <div class="left">
+            <img src="https://images.pexels.com/photos/2122294/pexels-photo-2122294.jpeg?auto=compress&cs=tinysrgb"
+                class="imghover" alt="" style="border-radius: 30px;">
+        </div>
+        <div class="right">
+            <h1>The home of <span style="color:#35b8be ;">fresh <span style="color: black;">&</span> healthy</span>
+                products.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500.</p>
+            <button>Learn about us</button><br>
+            <img src="/Img/asset 38.svg" height="27px" alt="">
+            <p style="color: black; font-size: 15px;"><span style="color:#35b8be ;">4.6 out of 5</span> based on 7000+
+                reviews</p>
+        </div>
+    </div>
+
+    <!-- section3 -->
+
+    <center>
+        <h1 style="color: #35b8be; margin-block: 5%; padding-left: 3%;">How it works.</h1>
+    </center>
+
+    <div class="container section3">
+        <div class="box">
+            <img src="/Img/asset 5.png" alt="">
+            <h2>Adapt your menu items</h2>
+            <p>Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+        </div>
+        <div class="box">
+            <img src="/Img/asset 6.png" alt="">
+            <h2>Accept online orders & takeout</h2>
+            <p>Let your customers order and pay via the powerful ecommerce system, or simple let them call your store.
+            </p>
+        </div>
+        <div class="box">
+            <img src="/Img/asset 7.png" alt="">
+            <h2>Manage delivery or takeout</h2>
+            <p>Manage your own logistics and take orders simply through the ecommerce system.</p>
+        </div>
+    </div>
+
+
+    <!-- section4 -->
+
+    <div class="container section4">
+        <h1 style="color: #35b8be;">Browse our menu</h1>
+        <p>Use our menu to place a n order online, or phone our store to
+            place a pickup order. Fast and fresh food.</p>
+        <div class="menubtn">
+            <button class="btn1">Burgers</button>
+            <!-- <button class="btn2">Drinks</button>
+            <button class="btn3">Sides</button> -->
+        </div>
+    </div>
+
+    <div class=" orderbox">
+
+        <div class="box1">
+            <img src="/Img/asset 8.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:31%;">20$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="/Img/asset 9.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:33%;">9$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="/Img/asset 10.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:33%;">12$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="/Img/asset 11.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:33%;">15$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="/Img/asset 12.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:33%;">18$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="/Img/asset 13.png" alt="">
+            <div class="textarea">
+                <h3>Burger Dreams <span style="color: #35b8be;margin-left:33%;">5$</span></h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="cartarea">
+                    <input type="number" placeholder="0">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- section5 -->
+
+    <div class="container section5">
+        <div class="left">
+            <img src="https://cdn.dribbble.com/users/228427/screenshots/5544385/attachments/1199354/attachment_foodies_fikristudio.jpg?resize=800x600&vertical=center"
+                alt="">
+        </div>
+        <div class="right">
+            <h1 style="color:#35b8be ; padding-bottom: 30px;">Beautiful food & takeaway, to your door.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500.</p>
+            <button>Place an Order</button><br>
+        </div>
+    </div>
+
+    <!-- section6 -->
+    <div class="section6">
+        <div class="textarea">
+            <h1>Support good food
+                and local business.</h1>
+            <button>Order Now</button>
+        </div>
+
+    </div>
+
+    <!-- footerarea -->
+
+    <div class=" footerarea">
+        <ul>
+            <li class="ff">COMPANY</li>
+            <li>Home</li>
+            <li>Order</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ul>
+        <ul>
+            <li class="ff">TEMPLATE</li>
+            <li>Style Guide</li>
+            <li>Changelog</li>
+            <li>Licence</li>
+            <li>Webflow University</li>
+        </ul>
+        <!-- <ul>
+            <li class="ff">FLOWBASE</li>
+            <li>More Cloneables</li>
+        </ul> -->
+    </div>
+    <div class="last-footer">
+        <footer>
+            <img src="/Img/asset 25.svg" alt="">
+            <img src="/Img/asset 26.svg" alt="">
+            <img src="/Img/asset 27.svg" alt="">
+        </footer>
+    </div>
+
+    <span id="gotodown"></span>
+    <div class="goto">
+        <a href="#gotoup" class=""><i class="fa-solid fa-circle-chevron-up"></i></a>
+        <a href="#gotodown" class=""><i class="fa-solid fa-circle-chevron-down"></i></a>
+    </div>
+
+    <script>
+        function clk() {
+            var a = document.getElementById("openit");
+            a.classList.toggle("openiton");
+        }
+
+   
+    </script>
+
+</body>
+
+</html>
