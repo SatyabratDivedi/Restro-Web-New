@@ -11,7 +11,7 @@ header,
 .last-footer {
   /* position: fixed; */
   width: 100%;
-  background-image: url(/Img/asset\ 29.svg);
+  background-image: url(Img/asset\ 29.svg);
   background-color: #35b8be;
   height: 45px;
   color: aliceblue;
@@ -49,7 +49,7 @@ button {
   color: aliceblue;
   font-size: 18px;
   transition: all 0.3s;
-  background-image: url(/Img/asset\ 29.svg);
+  background-image: url(Img/asset\ 29.svg);
 }
 button:hover {
   font-size: 19px;
@@ -110,7 +110,7 @@ nav button {
   color: aliceblue;
   font-size: 1rem;
   transition: all 0.3s;
-  background-image: url(/Img/asset\ 29.svg);
+  background-image: url(Img/asset\ 29.svg);
 }
 nav button:hover {
   font-size: 1.07rem;
@@ -119,7 +119,7 @@ nav button:hover {
 }
 .cart {
   position: relative;
-  background-image: url(/Img/asset\ 36.svg);
+  background-image: url(Img/asset\ 36.svg);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -130,7 +130,7 @@ nav button:hover {
 }
 .bar {
   position: relative;
-  background-image: url(/Img/bars-solid.svg);
+  background-image: url(Img/bars-solid.svg);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -164,7 +164,7 @@ nav button:hover {
 
 .section1 {
   height: calc(100vh - 145px);
-  background-image: url(/Img/asset\ 30.svg);
+  background-image: url(Img/asset\ 30.svg);
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-size: 70%;
@@ -175,7 +175,7 @@ nav button:hover {
 
 .section2 {
   height: calc(90vh);
-  background-image: url(/Img/asset\ 31.svg);
+  background-image: url(Img/asset\ 31.svg);
   background-repeat: no-repeat;
 }
 .section2 .left {
@@ -299,7 +299,7 @@ nav button:hover {
 
 .section6 .textarea {
   background-color: #fab414;
-  background-image: url(/Img/asset\ 34.svg);
+  background-image: url(Img/asset\ 34.svg);
   text-align: center;
 }
 
