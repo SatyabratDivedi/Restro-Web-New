@@ -71,7 +71,7 @@ nav {
   padding: 0 5%;
   z-index: 1000;
 }
-nav .left{
+nav .left {
   flex: auto;
 }
 nav .openit {
@@ -226,7 +226,7 @@ nav button:hover {
 .orderbox {
   display: flex;
   align-items: center;
- background-color: #FAB414;
+  background-color: #fab414;
   background-repeat: no-repeat;
   background-size: cover;
   flex-wrap: wrap;
@@ -388,11 +388,11 @@ nav button:hover {
     text-align: center;
   }
   .section1 {
-    margin-block: 20%;
+    margin-block: 10%;
   }
   .section2 {
     text-align: center;
-    margin-block: 30%;
+    margin-block: 20%;
     flex-direction: column-reverse;
   }
   .section1 .left {
@@ -417,28 +417,30 @@ nav button:hover {
     font-size: 14px;
   }
   .section1 {
-    margin-block: 20%;
+    margin-block: 15%;
   }
   .section2 {
-    margin-top: 40%;
+    margin-top: 30%;
   }
 
-  .orderbox{
+  .orderbox {
     padding: 0px;
   }
   .box1 {
-   width: 100%;
-  }
- 
-  .section5 .left{
     width: 100%;
   }
-  .section5 .left img{
+
+  .section5 .left {
+    width: 100%;
+  }
+  .section5 .left img {
     width: 80%;
     height: auto;
   }
 
-
+  .section4 p {
+    padding-inline: 20%;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -488,8 +490,7 @@ nav button:hover {
   }
 }
 
-
-@media only screen and (max-width: 666px){
+@media only screen and (max-width: 666px) {
   h1 {
     font-size: 30px;
   }
@@ -497,34 +498,33 @@ nav button:hover {
     font-size: 14px;
   }
   .section1 {
-    margin-block: 25%;
+    margin-block: 10%;
   }
   .section2 {
-    margin-top: 50%;
+    margin-top: 20%;
   }
-  .orderbox{
+  .orderbox {
     border: 2px solid red;
   }
-  .orderbox .box1{
+  .orderbox .box1 {
     padding: 0px 10px;
     width: 90%;
   }
-  .orderbox .box1 img{
+  .orderbox .box1 img {
     height: 100px;
     width: 100px;
   }
-  .orderbox .box1 .textarea .cartarea input{
-   font-size: 13px;
-   padding: 2px 3px;
+  .orderbox .box1 .textarea .cartarea input {
+    font-size: 13px;
+    padding: 2px 3px;
   }
-  .orderbox .box1 button{
+  .orderbox .box1 button {
     font-size: 13px;
     line-height: 16px;
   }
-
 }
 
-@media only screen and (max-width: 555px){
+@media only screen and (max-width: 555px) {
   h1 {
     font-size: 27px;
   }
@@ -532,55 +532,63 @@ nav button:hover {
     font-size: 14px;
   }
   .section1 {
-    margin-block: 30%;
+    margin-block: 15%;
   }
   .section2 {
-    margin-top: 55%;
+    margin-top: 40%;
   }
-  header{
-  font-size: 13px;
-}
-.last-footer img{
-  height: 23px;
-  padding-inline: 35px;
-}
-.footerarea ul{
-  display: flex;
-  flex-direction: column;
+  header {
+    font-size: 13px;
+  }
+  .last-footer img {
+    height: 23px;
+    padding-inline: 35px;
+  }
+  .footerarea ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4 p {
+    padding-inline: 15%;
+  }
 }
 
-}
-
-@media only screen and (max-width:465px){
+@media only screen and (max-width: 465px) {
   .section1 {
-    margin-block: 50%;
+    margin-block: 22%;
   }
   .section2 {
-    margin-top: 90%;
-    margin-bottom: 40%;
+    margin-top: 40%;
+    margin-bottom: 20%;
   }
-  header{
+  header {
     font-size: 12px;
   }
+  .orderbox .box1 {
+    width: 100%;
+  }
 }
-@media only screen and (max-width:355px){
+
+@media only screen and (max-width: 355px) {
   .section1 {
-    margin-block: 60%;
+    margin-block: 20%;
   }
   .section2 {
-    margin-top: 100%;
+    margin-top: 50%;
   }
-  .last-footer img{
+  .last-footer img {
     height: 18px;
     padding-inline: 30px;
   }
-  header{
+  header {
     font-size: 11px;
   }
 }
-@media only screen and (max-width:420px){
-p{
-  font-size: 13px;
-}
-
+@media only screen and (max-width: 420px) {
+  p {
+    font-size: 13px;
+  }
+  .section4 p {
+    padding-inline: 10%;
+  }
 }
