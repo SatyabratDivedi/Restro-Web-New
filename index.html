@@ -23,21 +23,21 @@
         </div>
 
         <div id="openit" class="openit">
-            <a class="navhov" href="#">Home</a>
-            <a class="navhov" href="#">Order</a>
-            <a class="navhov" href="#">Company</a>
-            <a class="navhov" href="#">FAQ</a>
+            <a class="navhov" href="#home">Home</a>
+            <a class="navhov" href="#working">Working</a>
+            <a class="navhov" href="#menu">Menu</a>
+            <a class="navhov" href="#apps">Our App</a>
             <a href="#"><button>Sign In</button></a>
             <a href="#"><button>Sign Up</button></a>
 
         </div>
         <div class="cart"><span></span></div>
-        <div class="bar" onclick="clk()" onscroll="clkclose()"><span></span></div>
+        <div class="bar" onclick="clk()"><span></span></div>
     </nav>
 
     <!-- section1 -->
 
-    <div class=" container section1">
+    <div class=" container section1" id="home">
         <div class="left">
             <h1>Beautiful food & takeaway, <span style="color:#35b8be ;">delivered</span> to your door.</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -75,7 +75,7 @@
     <!-- section3 -->
 
     <center>
-        <h1 style="color: #35b8be; margin-block: 5%; padding-left: 3%;">How it works.</h1>
+        <h1 style="color: #35b8be; margin-block: 5%; padding-left: 3%;" id="working">How it works.</h1>
     </center>
 
     <div class="container section3">
@@ -101,7 +101,7 @@
     <!-- section4 -->
 
     <div class="container section4">
-        <h1 style="color: #35b8be;">Browse our menu</h1>
+        <h1 style="color: #35b8be;" id="menu" >Browse our menu</h1>
         <p>Use our menu to place a n order online, or phone our store to
             place a pickup order. Fast and fresh food.</p>
         <div class="menubtn">
@@ -185,17 +185,16 @@
 
 
     <!-- section5 -->
-
-    <div class="container section5">
+    <div class="container section5" id="apps">
         <div class="left">
             <img src="https://cdn.dribbble.com/users/228427/screenshots/5544385/attachments/1199354/attachment_foodies_fikristudio.jpg?resize=800x600&vertical=center"
                 alt="">
         </div>
         <div class="right">
-            <h1 style="color:#35b8be ; padding-bottom: 30px;">Beautiful food & takeaway, to your door.</h1>
+            <h1 style="color:#35b8be ; padding-bottom: 30px;" id="app">Beautiful app for you & ready ro takeaway, to your door.</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500.</p>
-            <button>Place an Order</button><br>
+            <a href=""><button>Download Place an Order</button></a><br>
         </div>
     </div>
 
@@ -245,14 +244,12 @@
         <a href="#gotodown" class=""><i class="fa-solid fa-circle-chevron-down"></i></a>
     </div>
 
-    <script>
-        function clk() {
-            var a = document.getElementById("openit");
-            a.classList.toggle("openiton");
-        }
-
-   
-    </script>
+<script>
+    function clk() {
+    var a = document.getElementById("openit");
+    a.classList.toggle("openiton");
+}
+</script>
 
 </body>
 
